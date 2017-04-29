@@ -30,3 +30,12 @@
     $("#target1").css("color", "red");			// CSS function in the document to add custom colour red
   });
 </script>
+
+// Disabling an element by jQuery
+// there can 
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red").prop("disabled",true);	// This one way to do so
+    //$("target1").prop("disabled", true);		// Properties function to disable an element in the button
+  });
+</script>
