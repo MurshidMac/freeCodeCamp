@@ -39,3 +39,13 @@
     //$("target1").prop("disabled", true);		// Properties function to disable an element in the button
   });
 </script>
+
+// changing an text element using jquery
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red").prop("disabled",true);	// This one way to do so
+    $("#target4").htmt("<em>This is a target button 4</em>")	// this uses the html target button to change text// we can use the text("") functions as well
+  });
+</script>
+
+	
