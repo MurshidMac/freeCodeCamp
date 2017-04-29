@@ -20,3 +20,13 @@
   });
 </script>
 
+// Adding CSS Custom Colour Using the JQuery
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+    $("#target3").addClass("animated fadeOut");
+    $("button").removeClass("btn-default");
+    $("#target1").css("color", "red");			// CSS function in the document to add custom colour red
+  });
+</script>
